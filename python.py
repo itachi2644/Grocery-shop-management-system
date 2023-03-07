@@ -6,7 +6,7 @@ Created on Mon May 24 09:51:46 2021
 """
 
 import mysql.connector as sql
-conn=sql.connect(host='localhost',user='root',passwd='absinha%',database='Grocery_Shop')
+conn=sql.connect(host='localhost',user='root',passwd='Tanish04',database='Grocery_Shop')
 if conn.is_connected():
     print('successfully connected')
 c=conn.cursor()
